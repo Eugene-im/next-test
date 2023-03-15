@@ -1,0 +1,26 @@
+.sidebarWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #cecece;
+  width: 96px;
+  padding: 34px 13px;
+  background: #ffffff;
+  border-radius: 0px 20px 20px 0px;
+  align-items: center;
+  gap: 28px;
+}
+
+.userIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding-top: 37px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}

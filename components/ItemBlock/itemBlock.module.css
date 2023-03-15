@@ -1,0 +1,7 @@
+.item {
+  background: #1d1d41;
+  border-radius: 20px;
+  padding: 40px 24px;
+  display: flex;
+  color: #fff;
+}

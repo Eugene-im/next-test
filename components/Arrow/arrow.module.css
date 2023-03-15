@@ -1,0 +1,21 @@
+.arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background: #64cff6;
+  position: relative;
+}
+.arrow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.arrow.up {
+  background: #6359e9;
+}
+.arrow.up img {
+  transform: rotate(180deg);
+}
