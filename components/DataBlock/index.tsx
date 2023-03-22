@@ -1,11 +1,13 @@
-import { ItemBlock } from "../ItemBlock"
-import styles from "./datablock.module.css"
+import { FC, ReactNode } from "react";
+import { ItemBlock } from "../ItemBlock";
+import styles from "./datablock.module.css";
 
-export const DataBlock = ()=>{
-    return (
-        <ItemBlock customStyles={styles.blockWidthHeight}>
-            data
-            {/* https://react-chartjs-2.js.org/examples/vertical-bar-chart */}
-        </ItemBlock>
-    )
+interface DataBlockProps {
+  children?: ReactNode;
 }
+
+export const DataBlock: FC<DataBlockProps> = ({ children }: DataBlockProps) => {
+  return (
+    <ItemBlock customStyles={styles.blockWidthHeight}>{children}</ItemBlock>
+  );
+};

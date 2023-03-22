@@ -1,0 +1,68 @@
+{
+    "transactions": [
+            {
+                    "id": "1",
+                    "date": "2018-02-01",
+                    "amount": "100",
+                    "currency": "USD",
+                    "category": "Food",
+                    "creditorName": "Tesco"
+            },
+            {
+                    "id": "2",
+                    "date": "2018-02-02",
+                    "amount": "200",
+                    "currency": "USD",
+                    "category": "Entertainment",
+                    "creditorName": "Netflix"
+            },
+            {
+                    "id": "23",
+                    "date": "2018-02-23",
+                    "amount": "-100",
+                    "currency": "USD",
+                    "category": "Food",
+                    "creditorName": "Tesco"
+            },
+            {
+                    "id": "24",
+                    "date": "2018-01-24",
+                    "amount": "-200",
+                    "currency": "USD",
+                    "category": "Entertainment",
+                    "creditorName": "Netflix"
+            },
+            {
+                    "id": "25",
+                    "date": "2018-01-25",
+                    "amount": "100",
+                    "currency": "USD",
+                    "category": "Food",
+                    "creditorName": "Tesco"
+            },
+            {
+                    "id": "26",
+                    "date": "2018-01-26",
+                    "amount": "200",
+                    "currency": "USD",
+                    "category": "Entertainment",
+                    "creditorName": "Netflix"
+            },
+            {
+                    "id": "27",
+                    "date": "2018-01-27",
+                    "amount": "100",
+                    "currency": "USD",
+                    "category": "Food",
+                    "creditorName": "Tesco"
+            },
+            {
+                    "id": "28",
+                    "date": "2018-01-28",
+                    "amount": "200",
+                    "currency": "USD",
+                    "category": "Entertainment",
+                    "creditorName": "Netflix"
+            }
+    ]
+}

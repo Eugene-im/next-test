@@ -19,7 +19,7 @@ export const MoneyBlock: FC<MoneyBlockProps> = ({
       <Arrow isUp={!isIncome} />
       <div className={styles.itemContent}>
         <div className={styles.itemTitle}>Total {isIncome ? "Income" : "Outcome"}</div>
-        <div className="itemAmount">{amount}</div>
+        <div className="itemAmount">${amount}</div>
       </div>
       <div className={cx(styles.itemPercent, isIncome && styles.income)}>
         {isIncome ? "+" : "-"}
