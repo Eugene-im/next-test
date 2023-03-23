@@ -31,7 +31,8 @@ export const Table = () => {
   );
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
-    useTable({ columns, data });
+  // @ts-ignore  
+  useTable({ columns, data });
 
   return (
     <table {...getTableProps()} style={{ border: "solid 1px blue" }}>
